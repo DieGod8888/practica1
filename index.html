@@ -9,50 +9,93 @@
 
 <body>
     <header>
-        <h1>Diego Michel Facultad de Telemática</h1>
+        <h1>Diego Michel <span>Facultad de Telemática</span></h1>
     </header>
+
     <nav>
         <a href="#">Inicio</a>
         <a href="#">Sobre mi</a>
-        <a href="#">Clientes</a>
+        <a href="#">Portafolio</a>
         <a href="#">Contacto</a>
     </nav>
-    <div id="div1">
-        <h2>Freelancer | Diseño y Desarrollo Web</h2>
-        <p>Colima, Col.</p>
-        <img src="img/6683352.png">
-        <button>Contactar</button>
+
+    <div class="div1">
+        <section class="sectionDiv1">
+            <h2 class="h2div1">Freelancer | Diseño y Desarrollo Web</h2>
+            <div class="divUbc">
+                <p class="pdiv1">Colima, Col.</p>
+                <img src="img/6683352.png" class="img1">
+            </div>
+            <br>
+            <button class="contact">CONTACTAR</button>
+        </section>
     </div>
-    <section>
-        <div>
-            <h2>Mis servicios</h2>
-            <h3>Diseño Web</h3>
-            <p>Holaholaholaholaholaholahola</p>
-            <h3>Aplicaciones Web</h3>
-            <p>Holaholaholaholaholaholahola</p>
-            <h3>E-Commerce</h3>
-            <p>Holaholaholaholaholaholahola</p>
+
+    <main>
+        <h2 class="h2Main">Mis servicios</h2>
+        <div class="divSection">
+            <section class="servicios">
+                <h3 class="h3Servicios">Diseño Web</h3>
+                <div class="icon">
+                    <img src="IMG/57350.png" class="imgMain">
+                </div>
+                <p class="pMain">
+                    Desde portfolios minimalistas hasta e-commerce dinámicos, mis ejemplos demuestran un enfoque innovador y una atención meticulosa
+                    a los detalles, garantizando soluciones visuales.
+                </p>
+            </section>
+            <section class="servicios">
+                <h3 class="h3Servicios">Aplicaciones Web</h3>
+                <div class="icon">
+                    <img src="IMG/68792.png" class="imgMain">
+                </div>
+                <p class="pMain">
+                    Desde plataformas de gestión hasta herramientas interactivas, mis ejemplos demuestran un enfoque técnico sólido y un diseño centrado
+                    en el usuario, garantizando aplicaciones escalables, eficientes y visualmente atractivas.
+                </p>
+            </section>
+            <section class="servicios">
+                <h3 class="h3Servicios">E-Commerce</h3>
+                <div>
+                    <img src="IMG/57589.png" class="imgMain">
+                </div>
+                <p class="pMain">
+                    Mis ejemplos destacan la capacidad de crear tiendas online optimizadaspara conversiones, con diseños responsivos y experiencias
+                    de usuario que impulsan las ventas y fidelizan a los clientes.
+                </p>
+            </section>
         </div>
-        <div>
-            <h2>Contacto</h2>
-            <form>
-                <h3>Contactame llenando todos tus datos</h3>
-                <label>Tu nombre</label>
-                <br>
-                <input type="text">
-                <br>
-                <label>Tu teléfono</label>
-                <br>
-                <input type="tel">
-                <br>
-                <label>Tu email</label>
-                <br>
-                <input type="email">
-                <br>
-                <input type="text">
-            </form>
-        </div>
+    </main>
+
+    <section class="sectionForm">
+        <h2 class="h2Form">Contacto</h2>
+        <form class="Form">
+            <h3 class="h3Form">CONTACTAME LLENANDO TUS DATOS</h3>
+            <div class="divForm">
+                <section>
+                    <label class="labelForm">Nombre</label>
+                    <br>
+                    <input type="text" placeholder="Tu nombre" class="inputForm">
+                </section>
+                <section>
+                    <label class="labelForm">Teléfono</label>
+                    <br>
+                    <input type="tel" placeholder="Tu teléfono" class="inputForm">
+                </section>
+            </div>
+            <br>
+            <label class="labelForm">Email</label>
+            <br>
+            <input type="email" placeholder="Tu email" class="inputForm" id="correo">
+            <br>
+            <label class="labelForm">Mensaje</label>
+            <br>
+            <input type="text" class="inputForm" id="mensaje">
+            <br>
+            <button class="enviar">ENVIAR</button>
+        </form>
     </section>
+
     <footer>Todos los derechos reservados | Facultad de Telemática</footer>
 </body>
 </html>
