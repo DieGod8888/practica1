@@ -92,7 +92,7 @@ a {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    font-size: 70px; 
+    font-size: 70px;
 }
 
 .h3Servicios {
@@ -108,7 +108,7 @@ a {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
     font-weight: bold;
-    font-size: 20px; 
+    font-size: 20px;
 }
 
 .imgMain {
@@ -117,7 +117,6 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100px;
 }
 
 .sectionForm {
