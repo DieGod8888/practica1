@@ -1,4 +1,7 @@
-
+body {
+    margin: 0;
+    padding: 0;
+}
 
 h1 {
     text-align: center;
@@ -182,7 +185,9 @@ a {
 }
 
 footer {
+    font-weight: bold;
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgb(187, 223, 255);
     background-size: cover;
     position: relative;
