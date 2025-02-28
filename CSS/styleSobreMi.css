@@ -25,6 +25,11 @@ nav {
     padding-top: 20px;
 }
 
+.nav1 a:hover {
+    background-color: yellow;
+    color: black;
+}
+
 a {
     color: white;
     text-decoration: none;
